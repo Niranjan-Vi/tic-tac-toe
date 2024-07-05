@@ -1,0 +1,52 @@
+
+*{
+    margin: 0;
+    padding: 0 ;
+}
+
+body{
+    background-color: rgb(126, 110, 91);
+    
+}
+h1{
+    text-align: center;
+    margin-top: 40px; 
+    font-size: 6vmin;
+    color: white;
+    border: 1px solid black;
+}
+.container{
+    height: 300px;
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.text1{
+    
+    margin-top: 7px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(140, 212, 25);
+}
+.text2{
+  
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(140, 212, 25);
+    font-weight: bolder;
+}
+.sbtn{
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(140, 212, 25);
+    font-weight: bolder;
+
+}
+.strt-btn:hover, .text1:hover, .text2:hover{
+    scale: 1.1;
+}
+a{
+    text-decoration: none;
+    
+}
